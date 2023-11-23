@@ -4,10 +4,10 @@ function getFormvalue() {
     var form = document.getElementById('form1');
 
     // Access the input fields by their names
-    var firstName = form.elements['fname'].value;
-    var lastName = form.elements['lname'].value;
+    var FirstName = form.elements['fname'].value;
+    var LastName = form.elements['lname'].value;
 
     // Display the values using alert
-    alert(" " + firstName + " " + lastName);
+    alert(" " + FirstName + " " + LastName);
 
 }
